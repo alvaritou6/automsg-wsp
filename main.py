@@ -2,6 +2,8 @@ import pyautogui as pg
 from time import sleep
 from tkinter import messagebox as MessageBox
 
+print('It is of utmost importance that you read the README.MD file before proceeding.\n\n\n')
+
 msg = input("Enter the message to be sent: ")
 cant = int(input("Enter the number of times you want to send the message: "))
 sleep(1)
